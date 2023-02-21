@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('../fontawesome-free-5.15.2-web/css/all.css');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color:lightgoldenrodyellow;
+    font-family: Roboto,Arial,sans-serif;
+    
+}
+p{
+    color:black;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+#headerblock{
+    background-color:darkorange;
+    height: 64px;
+}
+#headerblock article{
+    display: flex;
+    width: 80%;
+    height: 56px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+
+}
+.leftblock{
+    width: 70%; 
+    display:flex ; 
+    color: white;
+}
+
+.logoblock{
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+}
+.searchblock{
+    width: 65%;
+}
+
+.parentlogo img{
+    
+    width: 66px; 
+   }
+   .explore{
+       color:#f0f0f0;
+   }
+ .logoblock a{
+    text-decoration: none;
+    font-style: italic;
+    font-size: 10px;
+    text-transform: capitalize;
+}
+.childlogo img{
+    width: 9px;
+}
+ .searchblock form{
+     display: flex;
+ }
+ .searchblock form input{
+     width: 85%;
+     height: 52px;
+     padding: 0 0px  0 30px;
+     border-radius:3px;
+    border: none;  
+}
+.seachicon{
+    position: relative;
+
+}
+.searchblock i{
+    font-size: 20px;
+    font-weight: 600;
+    position:absolute;
+    top: 18px;
+    left: 826px;
+    color:blue;
+}
+    .rightblock{
+    width: 30%;    
+    display: flex;
+    color:white;
+    
+}
+.next{
+    display: flex;
+}
+.rightblock > ul{
+list-style: none;
+display: flex;
+}
+
+.rightblock > ul li{
+    flex:1;
+    margin: 0px 30px;
+}
+.rightblock > ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.rightblock .login{
+
+padding: 8px 42px;
+}
+.profileicon i {
+    color: blue;
+}
+
+.rewards{
+    color: blue;
+}
+.rightblock ul li:hover > .dropdown{
+    display:block;
+}
+.rightblock ul li:hover > #moredown{
+    display: block;
+}
+.dropdown aside{
+    position: relative;
+}
+.cart{
+    position: relative;
+    right: 84px;
+}
+
+#offerBlock{
+    height: 95px;
+    background:white;
+    border-bottom: 1px solid #ccc;
+       
+}
+#offerBlock article{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 110px;
+    align-items: center;
+}
+#offerBlock article div{
+    flex:1;
+}
+#offerBlock article div img{
+    width: 50px;
+}
+
+#offerBlock article div a{
+    display: flex;
+    flex-direction: column;
+    text-decoration:none;
+    color: #111;
+    font-size: small;
+}
+.notification{
+color: blue;
+}
+.download-app{
+    color:blue;
+}
+.customer-care{
+    color: blue;
+}
+
+.main{
+    background-color: black;
+}
+.card:hover {
+    border-radius: 60px;
+    transition: 300ms;
+} 

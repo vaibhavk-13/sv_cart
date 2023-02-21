@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Catalog test</title>
+
+        <link rel="stylesheet" href="payment.css" type="text/css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <style>
+            body 
+            {
+            font-family: "Lato", sans-serif;
+            }
+
+            img
+            {
+                height:200px;
+                width:200px;
+               
+            }
+
+            h3{
+                font-weight:bold;
+                text-align:center;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+            }
+            p{
+                text-align:left;
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+
+            .sidenav 
+            {
+            height: 100%;
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+            }
+
+            .sidenav a 
+            {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 23px;
+            color: #818181;
+            display: block;
+            }
+
+            .sidenav a:hover 
+            {
+            color: #f1f1f1;
+            }
+
+            .main 
+            {
+            margin-left: 160px; /* Same as the width of the sidenav */
+            font-size: 28px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+            }
+
+            @media screen and (max-height: 450px) 
+            {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+            }
+
+            #1
+            {
+                border-color:yellow;
+            }
+
+            #category
+            {
+                font-weight:bold;
+            }
+            .card:hover {
+                border-radius: 60px;
+                transition: 300ms;
+            } 
+        
+
+        
+        </style>
+    </head>
+
+    <body>
+
+        <div class="sidenav">
+            <div class="row">
+                <a href="#" id="category">CATEGORIES</a>
+                <a href="catalog_topdeals.html">Top Offers</a>
+                <a href="catalog_mobile.html">Smartphones</a>
+                <a href="#">Fashion</a>
+                <a href="catalog_grocery.html">Grocery</a>
+                <a href="catalog_electronic.html">Electronics</a>
+                <a href="../index.html">Home Page</a>
+            </div>
+        </div>
+
+        <div class="main" style="background-color:blueviolet;">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="row">
+                <div class="col-sm-4 justify-content-center">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+                                <h3>Hoodie</h3>
+                                <center><img class="img-fluid" src="../images/hoodie.jpg" alt="hoodie"></center>
+                                <p>Price: 248</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                
+                                </center>
+                                
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+
+                                <h3>White black t-shirt</h3>
+                                <center><img class="img-fluid" src="../images/white-black t shirt.jpg" alt="tshirt"></center>
+                                <p>Price: 249</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+
+                                
+                            </div>
+                        </div>
+            
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+
+                                <h3>Checkered Polo T-shirt</h3>
+                                <center><img class="img-fluid" src="../images/checkered polo t shirt.jpg" alt="checks shirt"></center>
+                                <p>Price: 349</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="row">
+                <div class="col-sm-4" id="1">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+                                <h3>Orange shirt</h3>
+                                <center><img class="img-fluid" src="../images/orange shirt.jpg" alt="oppo"></center>
+                                <p>Price: 309</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+
+                                <h3>Round Neck t-shirt</h3>
+                                <center><img class="img-fluid" src="../images/round-neck-grey shirt.jpg" alt="round neck shirt"></center>
+                                <p>Price: 349</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+
+                                <h3>Dark blue jeans</h3>
+                                <center><img class="img-fluid" src="../images/dark blue jeans.jpg" alt="dark blue jeans"></center>
+                                <p>Price: 499</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                
+                                </center>
+                            </div>
+                        </div>
+                
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="row">
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+                                <h3>Black jeans</h3>
+                                <center><img class="img-fluid" src="../images/black jeans.jpg" alt="black jeans"></center>
+                                <p>Price: 999</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+                                <h3>Killer analog watch</h3>
+                                <center><img class="img-fluid" src="../images/kl-1c analog watch1.jpg" alt="analog watch"></center>
+                                <p>Price: 974</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+                                <h3>Blue Analog Watch</h3>
+                                <center><img class="img-fluid" src="../images/blue and silver analog.jpg" alt="blue analog watch"></center>
+                                <p>Price: 314</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+       
+                

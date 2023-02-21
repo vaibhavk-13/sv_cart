@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Catalog test</title>
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <style>
+            body 
+            {
+            font-family: "Lato", sans-serif;
+            }
+
+            img{
+                height: 200px;
+                width:200px;
+            }
+
+            h3{
+                font-weight:bold;
+                text-align:center;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+            }
+            p{
+                text-align:left;
+                font-family: 'Times<button class="btn btn-primary">ADD TO CART</button> New Roman', Times, serif;
+                
+            }
+
+            .sidenav 
+            {
+            height: 100%;
+            width: 160px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+            }
+
+            .sidenav a 
+            {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 23px;
+            color: #818181;
+            display: block;
+            }
+
+            .sidenav a:hover 
+            {
+            color: #f1f1f1;
+            }
+
+            .main 
+            {
+            margin-left: 160px; /* Same as the width of the sidenav */
+            font-size: 28px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+            }
+
+            @media screen and (max-height: 450px) 
+            {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+            }
+
+            #1
+            {
+                border-color:yellow;
+            }
+
+            #category
+            {
+                font-weight:bold;
+            }
+
+        
+        </style>
+    </head>
+
+    <body>
+
+        <div class="sidenav">
+            <div class="row">
+                <a href="#" id="category">CATEGORIES</a>
+                <a href="#TopOffer">Top Offers</a>
+                <a href="catalog_mobile.html">Smartphones</a>
+                <a href="catalog_fashion.html">Fashion</a>
+                <a href="#clients">Grocery</a>
+                <a href="catalog_electronic.html">Electronics</a>
+                <a href="../index.html">Home Page</a>
+            </div>
+        </div>
+
+        <div class="main" style="background-color:blueviolet;">
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="row">
+                <div class="col-sm-4 justify-content-center">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+                                <h3>Tata Toor Dal</h3>
+                                <center><img class="img-fluid" src="../images/tata toor dal.jpeg" alt="toor dal"></center>
+                                <p>Price: 310</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                 </center>
+                                
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+
+                                <h3>White label sugar</h3>
+                                <center><img class="img-fluid" src="../images/white label sugar.jpeg" alt="sugar"></center>
+                                <p>Price: 45</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+
+                                
+                            </div>
+                        </div>
+            
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+
+                                <h3>Oreo biscuit </h3>
+                                <center><img class="img-fluid" src="../images/oreo biscuit.jpeg " alt="biscuit"></center>
+                                <p>Price: 94</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="row">
+                <div class="col-sm-4" id="1">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+                                <h3>Crunchy Granola</h3>
+                                <center><img class="img-fluid" src="../images/keloggs crunchy granola.jpeg" alt="crunchy"></center>
+                                <p>Price: 272</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+
+                                <h3>Special K</h3>
+                                <center><img class="img-fluid" src="../images/keloggs special k.jpeg" alt="special k"></center>
+                                <p>Price: 179</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+
+                                <h3>Oreo ice cream</h3>
+                                <center><img class="img-fluid" src="../images/oreo ice cream.jpeg " alt="ice cream"></center>
+                                <p>Price: 186</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+                            </div>
+                        </div>
+                
+                </div>
+            </div>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="row">
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+                                <h3>Tetley Green Tea</h3>
+                                <center><img class="img-fluid" src="../images/Tetley green tea.jpeg" alt="green tea"></center>
+                                <p>Price: 121</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+                                <h3>Tata Tea</h3>
+                                <center><img class="img-fluid" src="../images/Tata tea.jpeg" alt="tea"></center>
+                                <p>Price: 473</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="col-sm-4">
+                    
+                        <div class="card" style="border-color:yellow;border-width:10px;">
+                            <div class="card-body">
+                                <h3>Daawat basmati</h3>
+                                <center><img class="img-fluid" src="../images/daawat basmati.jpeg" alt="wardrobe"></center>
+                                <p>Price: 335</p>
+                                <center>
+                                    <a href="../payment/payment_debit.html"><button class="btn btn-primary">BUY</button></a>
+                                    &nbsp;&nbsp;
+                                    <a href="../cart/cart2.html"> <button class="btn btn-primary">ADD TO CART</button></a>
+                                </center>
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+       
+                
